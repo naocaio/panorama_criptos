@@ -1,4 +1,4 @@
-# Coleta de Dados de Criptomoedas e Dashboard no Power BI
+# Panorama Criptomoedas
 
 Este projeto contém um script Python que coleta dados de criptomoedas da API CoinCap e os armazena em um banco de dados PostgreSQL, que está armazenado no render.com, podendo ser acessado remotamente. Também inclui um dashboard no PowerBI para visualização de uma panorama básico das criptomoedas.
 
@@ -16,7 +16,7 @@ Este projeto contém um script Python que coleta dados de criptomoedas da API Co
     
 - **Histórico de preços**
   - Histórico de preço para todas as criptomoedas.
-  - 
+    
 - **Dashboard interativo no Power BI**
   - Total Market Cap
   - Volume Movimentado, últimas 24h
@@ -25,7 +25,8 @@ Este projeto contém um script Python que coleta dados de criptomoedas da API Co
   - Participação das Criptomoedas no Volume Negociado
   - Cotação Atual das Criptomoedas
   - Variação de Preço, últimas 24h
-  - 
+  - Filtro por Criptomoeda
+    
 - **Segurança das credenciais**
   - Credenciais para autenticação no banco de dados via variável de ambiente. 
 
@@ -67,14 +68,6 @@ O banco de dados contém as seguintes tabelas:
 3. **Atualizar Dados no Power BI**:
    - Após rodar o script e armazenar os dados no banco de dados, abra o Power BI.
    - Atualize o conjunto de dados do Power BI para refletir os dados mais recentes.
-
-5. **Dashboard no Power BI**:
-   - O dashboard no Power BI foi configurado para mostrar gráficos interativos como:
-     - Variação de preços das últimas 24 horas.
-     - Market Cap total.
-     - Volume movimentado.
-     - Participação de cada criptomoeda no volume total.
-     - Preço médio das criptomoedas.
 
 ## Requisitos
 
