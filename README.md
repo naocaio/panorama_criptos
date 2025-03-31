@@ -76,6 +76,4 @@ O banco de dados contém as seguintes tabelas:
   - `os` para interação com o sistema operacional.
   - `psycopg2` para interação com o PostgreSQL.
   - `requests` para chamadas à API CoinCap.
-- **PostgreSQL** (ou banco de dados compatível).
-- **Power BI** (para visualização dos dados).
 
